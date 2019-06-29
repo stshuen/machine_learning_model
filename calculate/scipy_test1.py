@@ -49,3 +49,5 @@ pl.plot(x, y1, label=u"带噪声的实验数据")
 pl.plot(x, func(x, plsq[0]), label=u"拟合数据")
 pl.legend()
 pl.show()
+
+np.multiply(x, y)

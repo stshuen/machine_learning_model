@@ -24,3 +24,5 @@ def nlms(x, d, h, step_size=0.5):
         i += 1
         if i >= size: return u
         power += x[i] * x[i]  # 增加最新的取样
+
+nlms(1,1,1)
